@@ -1,0 +1,17 @@
+Comandos para GitHub
+
+Después de haber creado un repositorio puedes actualizar la información a través de estos comandos:
+git add . 
+git commit -m "first commit" 
+git push -u origin main 
+
+Luego de hacer esto te aparecerá cada modificación que hagas con la fecha y el comentario incluido.
+
+Comandos:
+    • git init :Sirve para iniciar en PowerShell.
+    • git add . :Sirve para añadir toda la información de la carpeta al repositorio.
+    • git add …  :Sirve para añadir un archivo en especifico (cambias los tres puntos por el archivo)
+    • git commit -m "..."  :Sirve para escribir un comentario cada vez que hagas un push.
+    • git branch -M main :Es un comando necesario para seguir con el push.
+    • git remote add origin https://github.com/asalsan790g/prueba01.git   :La primera vez que se crea el repositorio se coloca esta direccion para saber que repositorio es.
+    • git push -u origin main   :Es el comando escencial y final para hacer el push.
